@@ -238,10 +238,10 @@ export default function EmployeAttadance() {
   const label = { inputProps: { "aria-label": "Checkbox demo" } };
   const classes = useStyles();
   return (
-    <Box>
+    <Box marginTop="50px">
       <TableContainer component={Paper}>
         <Table>
-          <TableHead sx={{ width: "400px" }}>
+          <TableHead>
             <TableRow>
               <Box className={classes.id_box}>
                 <Checkbox label="ID" />

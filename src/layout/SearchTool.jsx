@@ -1,5 +1,5 @@
 import React from "react";
-import DatePicker from "../BasicMenu/DatePicker";
+import DatePicker from "../MuiComponents/DatePicker";
 import { makeStyles } from "@mui/styles";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 import { TextField, InputAdornment, IconButton } from "@mui/material";
@@ -20,7 +20,7 @@ const useStyles = makeStyles({
     margin: "0px",
     padding: "0px",
     alignItems: "start",
-    // height: "21px",
+    height: "21px",
   },
   div1: {
     gridArea: "1 / 1 / 2 / 2",
@@ -63,7 +63,6 @@ const useStyles = makeStyles({
     gridColumnGap: "0px",
     gridRowGap: "0px",
     alignItems: "center",
-    height: "30px",
   },
   div1_div4: { gridArea: "1 / 1 / 2 / 3" },
   div2_div4: { gridArea: "1 / 3 / 2 / 5" },

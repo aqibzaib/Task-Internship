@@ -6,7 +6,7 @@ import IconButton from "@mui/material/IconButton";
 import Badge from "@mui/material/Badge";
 import ChatBubbleOutlineOutlinedIcon from "@mui/icons-material/ChatBubbleOutlineOutlined";
 
-import MenuDropdown from "../BasicMenu/MenuDropdown";
+import MenuDropdown from "../MuiComponents/MenuDropdown";
 import Avatar from "@mui/material/Avatar";
 import notificationIcon from "../icons/notificationIcon.png";
 import messageIcon from "../icons/messageIcon.png";
@@ -71,7 +71,6 @@ export default function Header() {
                 display: "flex",
                 alignItems: "flex-end",
                 gap: "0.5rem",
-               
               }}
             >
               <IconButton
