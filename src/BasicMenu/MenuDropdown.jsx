@@ -12,7 +12,6 @@ const useStyles = makeStyles({
     fontWeight: 600,
     lineHeight: "18px !important",
     letterSpacing: "-0.02em",
-
     color: "#868B90 !important",
     textTransform: "capitalize !important",
   },

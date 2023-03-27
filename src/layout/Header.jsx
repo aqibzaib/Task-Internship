@@ -11,34 +11,40 @@ import Avatar from "@mui/material/Avatar";
 import notificationIcon from "../icons/notificationIcon.png";
 import messageIcon from "../icons/messageIcon.png";
 import { makeStyles } from "@mui/styles";
+import { red } from "@mui/material/colors";
 
 const useStyles = makeStyles({
   AttendanceReport: {
     fontFamily: "Poppins",
-    fontStyle: "SemiBold",
     fontWeight: 600,
     fontSize: "28px",
-    lineHeight: "42px",
-    letterSpacing: "-2%",
-    color: "black",
-    margin: 0,
+    letterSpacing: "-0.02em",
+    color: "#2C2F32",
+    marginTop: "55px",
+    marginLeft: "19px",
+    marginBottom: "8px",
   },
   superAdmin: {
+    alignSelf: "flex-start",
     fontFamily: "Poppins",
     fontSize: "12px",
     fontWeight: 600,
     lineHeight: "18px",
     letterSpacing: "-0.02em",
-    textAlign: "left",
-    color: "#868B90",
+    textAlign: "right",
+    color: "##868B90",
   },
   avatarContainer: {
     display: "flex",
     alignItems: "center",
+    // border: "2px solid gold",
   },
   avatar: {
-    width: 36,
-    height: 36,
+    // border: "2px solid gold",
+    marginBottom: "12px",
+    marginTop: "3px",
+    width: "36px",
+    height: "36px",
   },
 });
 
@@ -52,11 +58,22 @@ export default function Header() {
             sx={{
               display: "flex",
               justifyContent: "space-between",
+              alignItems: "flex-end",
+              background: "#FFFFFF",
+              height: "60px",
+              top: "0px",
             }}
           >
             <p className={classes.AttendanceReport}>Attendance Report</p>
 
-            <Box sx={{ display: "flex", alignItems: "center", gap: "0.5rem" }}>
+            <Box
+              sx={{
+                display: "flex",
+                alignItems: "flex-end",
+                gap: "0.5rem",
+               
+              }}
+            >
               <IconButton
                 size="large"
                 edge="start"
